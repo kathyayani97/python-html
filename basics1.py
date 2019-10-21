@@ -10,13 +10,20 @@ mycol = mydb.html
 
 
 
-url = "http://www.google.com/"
+url = "http://www.google.co.in"
 
 page = requests.get(url)
 data = page.text
-soup = BeautifulSoup(data,'html.parser')
+soup = BeautifulSoup(data, 'html.parser')
+
+
 
 for link in soup.find_all('a'):
     print(link.get('href'))
     #mycol.insert_one(link)
+
+
+
+
+
 
