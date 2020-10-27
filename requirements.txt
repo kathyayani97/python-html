@@ -6,7 +6,7 @@ beautifulsoup4==4.8.1
 certifi==2019.9.11
 chardet==3.0.4
 configparser==4.0.2
-cryptography==2.1.4
+cryptography==3.2
 cssselect==1.1.0
 dblatex==0.3.10
 enum34==1.1.6
